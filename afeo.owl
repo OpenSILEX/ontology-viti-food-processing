@@ -16,288 +16,288 @@
     <Prefix name="ofpe" IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp</Import>
-    <Import>http://www.mistea.supagro.inra.fr/ontologies/2015/oae</Import>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Aunur-Rofiq MULJARTO,  Jean-Michel SALMON, Brigitte CHARNOMORDIC, Patrice BUCH, Anne TIREAU, Pascal NEVEU</Literal>
+        <Literal xml:lang="en">Aunur-Rofiq MULJARTO,  Jean-Michel SALMON, Brigitte CHARNOMORDIC, Patrice BUCH, Anne TIREAU, Pascal NEVEU</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">INRA MISTEA, SPO, IATE
-Copyright © - INRA - 2014 - 2016</Literal>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <Literal xml:lang="en">The Agri-Food Experiment Ontology (AFEO), a new ontology network was developed based on two existing ontology resources, i.e., OAE (Ontology for Agriculture Experiment) and OFPE (Ontology for Food Processing Experiment).</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.lexvo.org/page/iso639-3/eng</Literal>
+        <Literal xml:lang="en">http://www.lexvo.org/page/iso639-3/eng</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">INRA MISTEA, SPO, IATE
-Copyright © - INRA - 2014 - 2016
-The Ontology for Agricultural Experiments is licensed by CC 4.0 (http://creativecommons.org/licenses/by/4.0/legalcode)</Literal>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+        <Literal xml:lang="en">INRA MISTEA, SPO, IATE
+Copyright © - INRA - 2014 - 2022</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://creativecommons.org/licenses/by/4.0/legalcode</Literal>
+        <Literal xml:lang="en">http://creativecommons.org/licenses/by/4.0/legalcode</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Agri-Food Experiment Ontology
+        <Literal xml:lang="en">Agri-Food Experiment Ontology
 (AFEO),</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">4.1 august 2016</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">INRA MISTEA, SPO, IATE
+Copyright © - INRA - 2014 - 2022
+The Ontology for Agricultural Experiments is licensed by CC 4.0 (http://creativecommons.org/licenses/by/4.0/legalcode)</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Agri-Food Experiment Ontology (AFEO), a new ontology network was developed based on two existing ontology resources, i.e., OAE (Ontology for Agriculture Experiment) and OFPE (Ontology for Food Processing Experiment).</Literal>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal xml:lang="en">4.2 august 2022
+change import</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#Draining"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RoseWine"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Destemming"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RedWine"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasObservedObject"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Grading"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sorting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Press-Juice"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TemporaryStorage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MalolacticFermentation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#before"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cleaning"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BacteriaAddition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Pomace"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PumpingOver"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#ByProduct"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#CarbonicMaceration"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HotMaceration"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#PreliminaryOperation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#ServiceProduct"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#isInputOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BiochemicalOperation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Clarification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#Harvesting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Operation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Pressing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DirectPressing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sulfitation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasAttribute"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#MainOperation"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#EnzymeAddition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Racking"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ageing"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasOutput"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FreeRun-Juice"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#CoreProduct"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriActivity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Concentrate"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Bacterium"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Berry"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RedWinePressing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FinishedWine"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#isOutputOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Separation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#isObservedObjectOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#InputProduct"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Enzyme"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Nitrogen"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#WhiteWine"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Crushing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Yeast"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriEntity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ColdMaceration"/>
+        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#Harvesting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Product"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Mixing"/>
+        <Class IRI="#Ageing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AlcoholicFermentation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Packaging"/>
+        <Class IRI="#BacteriaAddition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CubePackaging"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Maceration"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Dripping"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HeatProcessing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ConventionalMaceration"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OtherAdditives"/>
+        <Class IRI="#Bacterium"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bentonite"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sulphur"/>
+        <Class IRI="#Berry"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Stem"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#IntermediateProduct"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Grappe"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Must-AF"/>
+        <Class IRI="#BiochemicalOperation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bottling"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#YeastAddition"/>
+        <Class IRI="#CarbonicMaceration"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
+        <Class IRI="#Clarification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NitrogenAddition"/>
+        <Class IRI="#Cleaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColdMaceration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concentrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConventionalMaceration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crushing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CubePackaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destemming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DirectPressing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Draining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dripping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enzyme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnzymeAddition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fermentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinishedWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreeRun-Juice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grading"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grappe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeatProcessing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HotMaceration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maceration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MalolacticFermentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mixing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Must"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasInput"/>
+        <Class IRI="#Must-AF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nitrogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NitrogenAddition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherAdditives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Packaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pomace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Press-Juice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pressing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PumpingOver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Racking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedWinePressing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoseWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Separation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sulfitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sulphur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemporaryStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yeast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YeastAddition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#ByProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#CoreProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#InputProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#IntermediateProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#MainOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Operation"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#PostOperation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fermentation"/>
+        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#PreliminaryOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#ServiceProduct"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#before"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasInput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasObservedObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasOutput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#isInputOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#isObservedObjectOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#isOutputOf"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Ageing"/>
@@ -584,261 +584,261 @@ The Ontology for Agricultural Experiments is licensed by CC 4.0 (http://creative
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Ageing</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ageing</Literal>
+        <Literal xml:lang="en">ageing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#AlcoholicFermentation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alcoholic Fermentation</Literal>
+        <Literal xml:lang="en">Alcoholic Fermentation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Bacterium</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bacterium</Literal>
+        <Literal xml:lang="en">Bacterium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Bentonite</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bentonite</Literal>
+        <Literal xml:lang="en">Bentonite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Berry</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Berry</Literal>
+        <Literal xml:lang="en">Berry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#BiochemicalOperation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">biochemical operation</Literal>
+        <Literal xml:lang="en">biochemical operation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Bottling</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bottling</Literal>
+        <Literal xml:lang="en">Bottling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#CarbonicMaceration</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Carbonic Maceration</Literal>
+        <Literal xml:lang="en">Carbonic Maceration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Clarification</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Separation</Literal>
+        <Literal xml:lang="en">Separation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Cleaning</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cleaning</Literal>
+        <Literal xml:lang="en">Cleaning</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ColdMaceration</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cold Maceration</Literal>
+        <Literal xml:lang="en">Cold Maceration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Concentrate</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Concentrate</Literal>
+        <Literal xml:lang="en">Concentrate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ConventionalMaceration</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Conventional Maceration</Literal>
+        <Literal xml:lang="en">Conventional Maceration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Crushing</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Crushing</Literal>
+        <Literal xml:lang="en">Crushing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Destemming</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Destemming</Literal>
+        <Literal xml:lang="en">Destemming</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Draining</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Draining</Literal>
+        <Literal xml:lang="en">Draining</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Dripping</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dripping</Literal>
+        <Literal xml:lang="en">Dripping</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Enzyme</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Enzyme</Literal>
+        <Literal xml:lang="en">Enzyme</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#EnzymeAddition</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Enzyme Addition</Literal>
+        <Literal xml:lang="en">Enzyme Addition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Fermentation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fermentation</Literal>
+        <Literal xml:lang="en">Fermentation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#FinishedWine</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Finished Wine</Literal>
+        <Literal xml:lang="en">Finished Wine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#FreeRun-Juice</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Free Run-Juice</Literal>
+        <Literal xml:lang="en">Free Run-Juice</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Grading</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Grading</Literal>
+        <Literal xml:lang="en">Grading</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Grappe</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Grappe</Literal>
+        <Literal xml:lang="en">Grappe</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#HotMaceration</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hot Maceration</Literal>
+        <Literal xml:lang="en">Hot Maceration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Maceration</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maceration</Literal>
+        <Literal xml:lang="en">Maceration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#MalolacticFermentation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Malolactic Fermentation</Literal>
+        <Literal xml:lang="en">Malolactic Fermentation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Mixing</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mixing</Literal>
+        <Literal xml:lang="en">Mixing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Must</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Must</Literal>
+        <Literal xml:lang="en">Must</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Must-AF</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Must-AF</Literal>
+        <Literal xml:lang="en">Must-AF</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Nitrogen</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nitrogen</Literal>
+        <Literal xml:lang="en">Nitrogen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#NitrogenAddition</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nitrogen Addition</Literal>
+        <Literal xml:lang="en">Nitrogen Addition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OtherAdditives</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Other Additives</Literal>
+        <Literal xml:lang="en">Other Additives</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Packaging</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Packaging</Literal>
+        <Literal xml:lang="en">Packaging</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Pomace</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pomace</Literal>
+        <Literal xml:lang="en">Pomace</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Press-Juice</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Press-Juice</Literal>
+        <Literal xml:lang="en">Press-Juice</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Pressing</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pressing</Literal>
+        <Literal xml:lang="en">Pressing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#PumpingOver</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pumping Over</Literal>
+        <Literal xml:lang="en">Pumping Over</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Racking</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Racking</Literal>
+        <Literal xml:lang="en">Racking</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#RedWine</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Red Wine</Literal>
+        <Literal xml:lang="en">Red Wine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#RedWinePressing</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Red Wine Pressing</Literal>
+        <Literal xml:lang="en">Red Wine Pressing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#RoseWine</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rose Wine</Literal>
+        <Literal xml:lang="en">Rose Wine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Sorting</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sorting</Literal>
+        <Literal xml:lang="en">Sorting</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Stem</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stem</Literal>
+        <Literal xml:lang="en">Stem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Sulfitation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sulfitation</Literal>
+        <Literal xml:lang="en">Sulfitation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Sulphur</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sulphur</Literal>
+        <Literal xml:lang="en">Sulphur</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#TemporaryStorage</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Temporary Storage</Literal>
+        <Literal xml:lang="en">Temporary Storage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#WhiteWine</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">White Wine</Literal>
+        <Literal xml:lang="en">White Wine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Yeast</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Yeast</Literal>
+        <Literal xml:lang="en">Yeast</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#YeastAddition</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Yeast Addition</Literal>
+        <Literal xml:lang="en">Yeast Addition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasAttribute</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has attribute</Literal>
+        <Literal xml:lang="en">has attribute</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
