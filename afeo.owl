@@ -15,6 +15,7 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="ofpe" IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.mistea.supagro.inra.fr/ontologies/2015/aeo</Import>
     <Import>http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp</Import>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
@@ -57,7 +58,7 @@ change import</Literal>
         <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo#AgriActivity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriEntity"/>
+        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo#AgriEntity"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#Harvesting"/>
@@ -530,7 +531,7 @@ change import</Literal>
         <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasAttribute"/>
         <ObjectUnionOf>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo#AgriActivity"/>
-            <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriEntity"/>
+            <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo#AgriEntity"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Operation"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Product"/>
         </ObjectUnionOf>
@@ -553,7 +554,7 @@ change import</Literal>
         <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#isObservedObjectOf"/>
         <ObjectUnionOf>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo#AgriActivity"/>
-            <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriEntity"/>
+            <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo#AgriEntity"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Operation"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Product"/>
         </ObjectUnionOf>
@@ -562,7 +563,7 @@ change import</Literal>
         <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasObservedObject"/>
         <ObjectUnionOf>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo#AgriActivity"/>
-            <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriEntity"/>
+            <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo#AgriEntity"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Operation"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Product"/>
         </ObjectUnionOf>
