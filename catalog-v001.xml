@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo" uri="http://opensilex.org/vocabulary/2016/v4/aeo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp" uri="http://opensilex.org/vocabulary/2016/v4/ofpe.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1654010817960" name="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo" uri="aeo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1654010817960" name="http://www.mistea.supagro.inra.fr/ontologies/2016/v1/afeo" uri="afeo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1654010817960" name="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp" uri="ofpe.owl"/>
+    </group>
+</catalog>

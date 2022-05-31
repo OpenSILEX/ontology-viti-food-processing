@@ -50,11 +50,11 @@ The Ontology for Agricultural Experiments is licensed by CC 4.0 (http://creative
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="en">4.2 august 2022
+        <Literal xml:lang="en">4.2 May 2022
 change import</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriActivity"/>
+        <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo#AgriActivity"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriEntity"/>
@@ -529,7 +529,7 @@ change import</Literal>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasAttribute"/>
         <ObjectUnionOf>
-            <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriActivity"/>
+            <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo#AgriActivity"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriEntity"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Operation"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Product"/>
@@ -552,7 +552,7 @@ change import</Literal>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#isObservedObjectOf"/>
         <ObjectUnionOf>
-            <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriActivity"/>
+            <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo#AgriActivity"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriEntity"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Operation"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Product"/>
@@ -561,7 +561,7 @@ change import</Literal>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#hasObservedObject"/>
         <ObjectUnionOf>
-            <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriActivity"/>
+            <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/aeo#AgriActivity"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2015/oae#AgriEntity"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Operation"/>
             <Class IRI="http://www.mistea.supagro.inra.fr/ontologies/2016/v4/ontofp#Product"/>

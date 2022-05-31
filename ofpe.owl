@@ -13,15 +13,15 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://www.w3.org/2006/time#2016</Import>
     <Import>http://purl.org/NET/dc_owl2dl/terms</Import>
+    <Import>http://www.w3.org/2006/time#2016</Import>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.lexvo.org/page/iso639-3/eng</Literal>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal xml:lang="en">Aunur-Rofiq MULJARTO,  Jean-Michel SALMON, Brigitte CHARNOMORDIC, Patrice BUCHE, Anne TIREAU, Pascal NEVEU</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OFPE is a generic ontology
+        <Literal xml:lang="en">OFPE is a generic ontology
 specialized for food processing experiments, where raw ma-
 terials are transformed into final products. It includes dif-
 ferent classes that represent products and activities during
@@ -30,82 +30,151 @@ four main concepts, i.e., Product, Operation, Attribute, and
 Observation.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://creativecommons.org/licenses/by/4.0/legalcode</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Aunur-Rofiq MULJARTO,  Jean-Michel SALMON, Brigitte CHARNOMORDIC, Patrice BUCHE, Anne TIREAU, Pascal NEVEU</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ontology for Food Processing Experiments</Literal>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
+        <Literal xml:lang="en">http://www.lexvo.org/page/iso639-3/eng</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">INRA MISTEA, SPO, IATE
-Copyright © - INRA - 2014 - 2018</Literal>
+        <Literal xml:lang="en">INRA MISTEA, SPO, IATE
+Copyright © - INRA - 2014 - 2022</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+        <Literal xml:lang="en">http://creativecommons.org/licenses/by/4.0/legalcode</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal xml:lang="en">Ontology for Food Processing Experiments</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">INRA MISTEA, SPO, IATE
-Copyright © - INRA - 2014 - 2018
+        <Literal xml:lang="en">INRA MISTEA, SPO, IATE
+Copyright © - INRA - 2014 - 2022
 The Ontology for Agricultural Experiments is licensed by CC 4.0 (http://creativecommons.org/licenses/by/4.0/legalcode)</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">4.2 july 2018</Literal>
+        <Literal xml:lang="en">4.2 july 2018</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#MultipleObservations"/>
+        <Class IRI="#Attribute"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#contains_directly"/>
+        <Class IRI="#ByProduct"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasObservationResult"/>
+        <Class IRI="#CalculationResult"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#miligram"/>
+        <Class IRI="#CoreProduct"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#microgram_eq"/>
+        <Class IRI="#ExpertJudgementResult"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#overlaps"/>
+        <Class IRI="#FinishedProduct"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#overlappedBy"/>
+        <Class IRI="#FoodProcessing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Observation"/>
+        <Class IRI="#InputProduct"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ServiceProduct"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PreliminaryOperation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isInputOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Operation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isUsedBy_directly"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#producesBefore_directly"/>
+        <Class IRI="#IntermediateProduct"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MainOperation"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#MultipleObservations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObservationMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObservationResult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreliminaryOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductAttribute"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#SensorResult"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#producesBefore"/>
+        <Class IRI="#ServiceProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SingleObservation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#after"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#after_directly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#before"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#before_directly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#comesFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains_directly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#during"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#equal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#finishedBy"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#finishes"/>
@@ -114,304 +183,235 @@ The Ontology for Agricultural Experiments is licensed by CC 4.0 (http://creative
         <ObjectProperty IRI="#harvests"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#startedBy"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#kilogram"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasUnit"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isMemberOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#after"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#producesAfter"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ObservationResult"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#during"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isOutputOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#contains"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#code"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isObservedObjectOf"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#firstName"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#gram_per_litre"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#year"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#CalculationResult"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isObservedAttributeOf"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#gram_H2SO4_per_litre"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hour"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#percent_volume"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#comesFrom"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#endDate"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#meets"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OperationAttribute"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasTimeValue"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasOutput_directly"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ObservationMethod"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasPerson"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#IntermediateProduct"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isOrganizationOf"/>
+        <ObjectProperty IRI="#hasAttribute"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasInput"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#produces"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#email"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isInputOf_directly"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#equal"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isObservationMethodOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Operator"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExpertJudgementResult"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasObservedObject"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#temporalRelation"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#litre"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#date"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#before"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isUnitOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#producesAfter_directly"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ByProduct"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#uses_directly"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasMethod"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasAttribute"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#microgram_per_litre"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#beginDate"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Unit"/>
+        <ObjectProperty IRI="#hasInput_directly"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasMember"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasOutput"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#finishedBy"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#uses"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#CoreProduct"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#miligram_per_kilogram"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Plant"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#metBy"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#name"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasObservedAttribute"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasValue"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isObservationResultOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isPersonOf"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#miligram_per_litre"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isOutputOf_directly"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasInput_directly"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#InputProduct"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#observationDate"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#microgram"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#description"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Product"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FoodProcessing"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#starts"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasOrganization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ProductAttribute"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SingleObservation"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#microgram_per_kilogram"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isUsedBy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Organization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Attribute"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasReferenceValue"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Person"/>
+        <ObjectProperty IRI="#hasMethod"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasObservationMethod"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FinishedProduct"/>
+        <ObjectProperty IRI="#hasObservationResult"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PostOperation"/>
+        <ObjectProperty IRI="#hasObservedAttribute"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#gram"/>
+        <ObjectProperty IRI="#hasObservedObject"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#before_directly"/>
+        <ObjectProperty IRI="#hasOrganization"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#lastName"/>
+        <ObjectProperty IRI="#hasOutput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutput_directly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReferenceValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInputOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInputOf_directly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObservationMethodOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObservationResultOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObservedAttributeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObservedObjectOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOrganizationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOutputOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOutputOf_directly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPersonOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUnitOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsedBy_directly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#meets"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#metBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#overlappedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#overlaps"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#producesAfter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#producesAfter_directly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#producesBefore"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#producesBefore_directly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#startedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#starts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temporalRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_directly"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#address"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#after_directly"/>
+        <DataProperty IRI="#beginDate"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <DataProperty IRI="#code"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+        <DataProperty IRI="#date"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
+        <DataProperty IRI="#description"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <DataProperty IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#endDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#firstName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTimeValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lastName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#observationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gram_H2SO4_per_litre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gram_per_litre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kilogram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#litre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#microgram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#microgram_eq"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#microgram_per_kilogram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#microgram_per_litre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#miligram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#miligram_per_kilogram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#miligram_per_litre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#percent_volume"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Attribute"/>
@@ -1239,616 +1239,616 @@ The Ontology for Agricultural Experiments is licensed by CC 4.0 (http://creative
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Attribute</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Object attribute</Literal>
+        <Literal xml:lang="en">Object attribute</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ByProduct</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">By-Product</Literal>
+        <Literal xml:lang="en">By-Product</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ByProduct</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Co-produit</Literal>
+        <Literal xml:lang="fr">Co-produit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#CalculationResult</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Calculation result</Literal>
+        <Literal xml:lang="en">Calculation result</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#CoreProduct</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Core Product</Literal>
+        <Literal xml:lang="en">Core Product</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#CoreProduct</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Produit principal</Literal>
+        <Literal xml:lang="fr">Produit principal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ExpertJudgementResult</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Expert judgement result</Literal>
+        <Literal xml:lang="en">Expert judgement result</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#FinishedProduct</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Finished Product</Literal>
+        <Literal xml:lang="en">Finished Product</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#FinishedProduct</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Produit fini</Literal>
+        <Literal xml:lang="fr">Produit fini</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#FoodProcessing</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Food Processing</Literal>
+        <Literal xml:lang="en">Food Processing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#InputProduct</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Input Product</Literal>
+        <Literal xml:lang="en">Input Product</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#IntermediateProduct</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Intermediate Product</Literal>
+        <Literal xml:lang="en">Intermediate Product</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#IntermediateProduct</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Produit intermédiaire</Literal>
+        <Literal xml:lang="fr">Produit intermédiaire</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#MainOperation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Main Operation</Literal>
+        <Literal xml:lang="en">Main Operation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#MultipleObservations</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Multiple observation</Literal>
+        <Literal>Multiple observation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Observation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Observation</Literal>
+        <Literal xml:lang="en">Observation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ObservationMethod</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Observation Method</Literal>
+        <Literal xml:lang="en">Observation Method</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ObservationResult</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Observation result</Literal>
+        <Literal xml:lang="en">Observation result</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Operation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Operation</Literal>
+        <Literal xml:lang="en">Operation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Operation</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Opération</Literal>
+        <Literal xml:lang="fr">Opération</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OperationAttribute</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Operation Attribute</Literal>
+        <Literal>Operation Attribute</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Operator</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Operateur</Literal>
+        <Literal xml:lang="fr">Operateur</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Operator</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Operator</Literal>
+        <Literal xml:lang="en">Operator</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Organization</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Organisme</Literal>
+        <Literal xml:lang="fr">Organisme</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Organization</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Organization</Literal>
+        <Literal xml:lang="en">Organization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
         <IRI>#Organization</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+        <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Person</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Person in charge</Literal>
+        <Literal xml:lang="en">Person in charge</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
         <IRI>#Person</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+        <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Plant</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Plant</Literal>
+        <Literal xml:lang="en">Plant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#PostOperation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Post Operation</Literal>
+        <Literal xml:lang="en">Post Operation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#PreliminaryOperation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Preliminary Operation</Literal>
+        <Literal xml:lang="en">Preliminary Operation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Product</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Product</Literal>
+        <Literal xml:lang="en">Product</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Product</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Produit</Literal>
+        <Literal xml:lang="fr">Produit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ProductAttribute</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Product Attribute</Literal>
+        <Literal>Product Attribute</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#SensorResult</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sensor Result</Literal>
+        <Literal xml:lang="en">Sensor Result</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ServiceProduct</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Intrant</Literal>
+        <Literal xml:lang="fr">Intrant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ServiceProduct</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Service Product</Literal>
+        <Literal xml:lang="en">Service Product</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SingleObservation</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Single observation</Literal>
+        <Literal>Single observation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Unit</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Unit of Measurement</Literal>
+        <Literal xml:lang="en">Unit of Measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#address</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">addresse</Literal>
+        <Literal xml:lang="en">addresse</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#after</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">after</Literal>
+        <Literal xml:lang="en">after</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#after_directly</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">after directly</Literal>
+        <Literal xml:lang="en">after directly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#before</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">before</Literal>
+        <Literal xml:lang="en">before</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#before_directly</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">before directly</Literal>
+        <Literal xml:lang="en">before directly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#beginDate</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">begin date</Literal>
+        <Literal xml:lang="en">begin date</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#code</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">code</Literal>
+        <Literal xml:lang="en">code</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#comesFrom</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">comes from</Literal>
+        <Literal xml:lang="en">comes from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#contains</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">contains</Literal>
+        <Literal xml:lang="en">contains</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#contains_directly</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">contains directly</Literal>
+        <Literal xml:lang="en">contains directly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#date</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">date</Literal>
+        <Literal xml:lang="en">date</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#description</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">description</Literal>
+        <Literal xml:lang="en">description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#during</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">during</Literal>
+        <Literal xml:lang="en">during</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#email</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">email</Literal>
+        <Literal xml:lang="en">email</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#endDate</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">end date</Literal>
+        <Literal xml:lang="en">end date</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#equal</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">equal</Literal>
+        <Literal xml:lang="en">equal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#finishedBy</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">finished by</Literal>
+        <Literal xml:lang="en">finished by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#finishes</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">finishes</Literal>
+        <Literal xml:lang="en">finishes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#firstName</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">first name</Literal>
+        <Literal xml:lang="en">first name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#gram</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">g</Literal>
+        <Literal>g</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#gram_H2SO4_per_litre</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">g H2SO4/L</Literal>
+        <Literal>g H2SO4/L</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#gram_per_litre</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">g/L</Literal>
+        <Literal>g/L</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
         <IRI>#harvests</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+        <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasAttribute</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has attribute</Literal>
+        <Literal xml:lang="en">has attribute</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasInput</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has input</Literal>
+        <Literal xml:lang="en">has input</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasInput_directly</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has input directly</Literal>
+        <Literal xml:lang="en">has input directly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasMember</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is member</Literal>
+        <Literal xml:lang="en">is member</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasMethod</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has method</Literal>
+        <Literal xml:lang="en">has method</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasObservationMethod</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has observation method</Literal>
+        <Literal xml:lang="en">has observation method</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasObservationResult</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has observation result</Literal>
+        <Literal xml:lang="en">has observation result</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasObservedAttribute</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has observed attribute</Literal>
+        <Literal xml:lang="en">has observed attribute</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasObservedObject</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has observed object</Literal>
+        <Literal xml:lang="en">has observed object</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasOrganization</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has organization</Literal>
+        <Literal xml:lang="en">has organization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasOutput</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has output</Literal>
+        <Literal xml:lang="en">has output</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasOutput_directly</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has output directly</Literal>
+        <Literal xml:lang="en">has output directly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasPerson</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has Person</Literal>
+        <Literal xml:lang="en">has Person</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasReferenceValue</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has reference value</Literal>
+        <Literal xml:lang="en">has reference value</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasTimeValue</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has time value</Literal>
+        <Literal xml:lang="en">has time value</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasUnit</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has unit</Literal>
+        <Literal xml:lang="en">has unit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasValue</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has value</Literal>
+        <Literal xml:lang="en">has value</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hour</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hour</Literal>
+        <Literal xml:lang="en">hour</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isInputOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is input of</Literal>
+        <Literal xml:lang="en">is input of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isInputOf_directly</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is input of directly</Literal>
+        <Literal xml:lang="en">is input of directly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isMemberOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is member of</Literal>
+        <Literal xml:lang="en">is member of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isObservationMethodOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is observation method of</Literal>
+        <Literal xml:lang="en">is observation method of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isObservationResultOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is observation result of</Literal>
+        <Literal xml:lang="en">is observation result of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isObservedAttributeOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is observed attribut of</Literal>
+        <Literal xml:lang="en">is observed attribut of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isObservedObjectOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is observed object of</Literal>
+        <Literal xml:lang="en">is observed object of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isOrganizationOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is organization of</Literal>
+        <Literal xml:lang="en">is organization of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isOutputOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is output of</Literal>
+        <Literal xml:lang="en">is output of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isOutputOf_directly</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is output of directly</Literal>
+        <Literal xml:lang="en">is output of directly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isPersonOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is Person In Charge of</Literal>
+        <Literal xml:lang="en">is Person In Charge of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isUnitOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is unit of</Literal>
+        <Literal xml:lang="en">is unit of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isUsedBy</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is used by</Literal>
+        <Literal xml:lang="en">is used by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isUsedBy_directly</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is used by directly</Literal>
+        <Literal xml:lang="en">is used by directly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#kilogram</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">kg</Literal>
+        <Literal>kg</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#lastName</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">last name</Literal>
+        <Literal xml:lang="en">last name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#litre</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">L</Literal>
+        <Literal>L</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#meets</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">meets</Literal>
+        <Literal xml:lang="en">meets</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#metBy</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">metBy</Literal>
+        <Literal xml:lang="en">metBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#microgram</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">µg</Literal>
+        <Literal>µg</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#microgram_eq</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">µg éq. DMS/L</Literal>
+        <Literal>µg éq. DMS/L</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#microgram_per_kilogram</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">µg/kg</Literal>
+        <Literal>µg/kg</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#microgram_per_litre</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">µg/L</Literal>
+        <Literal>µg/L</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#miligram</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mg</Literal>
+        <Literal>mg</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#miligram_per_kilogram</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mg/kg</Literal>
+        <Literal>mg/kg</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#miligram_per_litre</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mg/L</Literal>
+        <Literal>mg/L</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#name</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">name</Literal>
+        <Literal xml:lang="en">name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#observationDate</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">observation date</Literal>
+        <Literal xml:lang="en">observation date</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#overlappedBy</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">overlapped by</Literal>
+        <Literal xml:lang="en">overlapped by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#overlaps</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">overlaps</Literal>
+        <Literal xml:lang="en">overlaps</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#percent_volume</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">%vol</Literal>
+        <Literal>%vol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#produces</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">produces</Literal>
+        <Literal xml:lang="en">produces</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#producesAfter</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">produces after</Literal>
+        <Literal xml:lang="en">produces after</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#producesAfter_directly</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">produces after directly</Literal>
+        <Literal xml:lang="en">produces after directly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#producesBefore</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">produces before</Literal>
+        <Literal xml:lang="en">produces before</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#producesBefore_directly</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">produces before directly</Literal>
+        <Literal xml:lang="en">produces before directly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#startedBy</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">started by</Literal>
+        <Literal xml:lang="en">started by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#starts</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">starts</Literal>
+        <Literal xml:lang="en">starts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#temporalRelation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">temporal relation</Literal>
+        <Literal xml:lang="en">temporal relation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
         <IRI>#temporalRelation</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+        <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#uses</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">uses</Literal>
+        <Literal xml:lang="en">uses</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#year</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">year</Literal>
+        <Literal xml:lang="en">year</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 

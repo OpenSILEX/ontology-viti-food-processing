@@ -16,230 +16,247 @@
     <Import>http://purl.org/NET/dc_owl2dl/terms</Import>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alexandre MAIRIN, Jonathan MINEAU, Isabelle Nembrot, Aunur-Rofiq MULJARTO</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Version 3.3 created by UMR MISTEA</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Agricultural Experiments Ontology</Literal>
+        <Literal>Alexandre MAIRIN, Jonathan MINEAU, Isabelle Nembrot, Aunur-Rofiq MULJARTO</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Anne TIREAU, Pascal NEVEU</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">INRA MISTEA
-Copyright © - INRA - 2014 - 2017
-The Agricultural Experiments Ontology is licensed by CC 4.0 (http://creativecommons.org/licenses/by/4.0/legalcode)</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/hasVersion"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">07th February 2017</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.lexvo.org/page/iso639-3/eng</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Agricultural Experiments Ontology</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/publisher"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">INRA MISTEA
-Copyright © - INRA - 2014 - 2017</Literal>
+        <Literal>Anne TIREAU, Pascal NEVEU</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AEO is an ontology aimed to represent objects related to agricultural practices.</Literal>
+        <Literal xml:lang="en">AEO is an ontology aimed to represent objects related to agricultural practices.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Authors : Anne TIREAU, Alexandre MAIRIN, Jonathan MINEAU, Isabelle Nembrot, Aunur-Rofiq MULJARTO, Pascal NEVEU</Literal>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
+        <Literal>http://www.lexvo.org/page/iso639-3/eng</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Agricultural Experiments Ontology is licensed by CC 4.0 (http://creativecommons.org/licenses/by/4.0/legalcode)</Literal>
+        <Literal>The Agricultural Experiments Ontology is licensed by CC 4.0 (http://creativecommons.org/licenses/by/4.0/legalcode)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal xml:lang="en">Agricultural Experiments Ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/hasVersion"/>
+        <Literal xml:lang="en">31st May 2022</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/publisher"/>
+        <Literal>INRA MISTEA
+Copyright © - INRA - 2014 - 2022</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Agricultural Experiments Ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Authors : Anne TIREAU, Alexandre MAIRIN, Jonathan MINEAU, Isabelle Nembrot, Aunur-Rofiq MULJARTO, Pascal NEVEU</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>INRA MISTEA
+Copyright © - INRA - 2014 - 2022
+The Agricultural Experiments Ontology is licensed by CC 4.0 (http://creativecommons.org/licenses/by/4.0/legalcode)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>Version 3.3.1 created by UMR MISTEA</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#AgriExperiment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FarmArea"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#partOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Repetition"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#involves"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#AgriActivity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Fungicide"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AgriEntity"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasPart"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSpecies"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SubPlot"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Irrigation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#CultivatedLand"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/hasVersion"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#involvedIn"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Herbicide"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Fertilizer"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#appliedTo"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Insecticide"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Treatment"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#requires"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#requiredBy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Water"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#included"/>
+        <Class IRI="#AgriExperiment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AgriInput"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#partOf_directly"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PhytoSanitaryAgriInput"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stem"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Shoot"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Organ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Bunch"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasVariety"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Fertilizing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Rootstock"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#locationOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#applies"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Pruning"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Species"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ViticulturalExperiment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Parasiticide"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#InterRow"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Leaf"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/publisher"/>
+        <Class IRI="#Area"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Berry"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Bunch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CultivatedLand"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#DiseasesControlling"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#RowSpacing"/>
+        <Class IRI="#FarmArea"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Row"/>
+        <Class IRI="#Fertilizer"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Fertilizing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Plant"/>
+        <Class IRI="#Fungicide"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasPart_directly"/>
+        <Class IRI="#Harvesting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Herbicide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insecticide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterRow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irrigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaf"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MicroPlot"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Area"/>
+        <Class IRI="#Organ"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasPlant"/>
+        <Class IRI="#Parasiticide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhytoSanitaryAgriInput"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pruning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Repetition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rootstock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Row"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RowSpacing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shoot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Species"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubPlot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Variety"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ViticulturalExperiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#appliedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#applies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPart_directly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPlant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpecies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVariety"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#included"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#includes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Harvesting"/>
+        <ObjectProperty IRI="#involvedIn"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Plot"/>
+        <ObjectProperty IRI="#involves"/>
     </Declaration>
-    <SubClassOf>
-        <Class IRI="#AgriEntity"/>
-        <Class IRI="#AgriEntity"/>
-    </SubClassOf>
+    <Declaration>
+        <ObjectProperty IRI="#locationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#partOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#partOf_directly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/hasVersion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/publisher"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#Area"/>
         <Class IRI="#AgriEntity"/>
@@ -493,472 +510,472 @@ Copyright © - INRA - 2014 - 2017</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#AgriActivity</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">represents common activities ou operations performed during experiments</Literal>
+        <Literal xml:lang="en">represents common activities ou operations performed during experiments</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#AgriActivity</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">agricultural activity</Literal>
+        <Literal xml:lang="en">agricultural activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#AgriActivity</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">represents common activities ou operations performed during experiments</Literal>
+        <Literal xml:lang="en">represents common activities ou operations performed during experiments</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#AgriEntity</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">represents objects that are observed and followed during field experiments</Literal>
+        <Literal xml:lang="en">represents objects that are observed and followed during field experiments</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#AgriEntity</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">agricultural entity</Literal>
+        <Literal xml:lang="en">agricultural entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#AgriEntity</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">represents objects that are observed and followed during field experiments</Literal>
+        <Literal xml:lang="en">represents objects that are observed and followed during field experiments</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#AgriExperiment</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">represents experiments carried out by researchers</Literal>
+        <Literal xml:lang="en">represents experiments carried out by researchers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#AgriExperiment</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">agricultural experiment</Literal>
+        <Literal xml:lang="en">agricultural experiment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#AgriExperiment</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">represents experiments carried out by researchers</Literal>
+        <Literal xml:lang="en">represents experiments carried out by researchers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#AgriInput</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">agricultural input</Literal>
+        <Literal xml:lang="en">agricultural input</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Area</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">zone spatiale : calcaire, AOC, pentue, etc.
+        <Literal>zone spatiale : calcaire, AOC, pentue, etc.
 cf Dolce</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Area</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">land area</Literal>
+        <Literal xml:lang="en">land area</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#Area</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">spécialisation de http://aims.fao.org/aos/agrovoc/c_330588</Literal>
+        <Literal>spécialisation de http://aims.fao.org/aos/agrovoc/c_330588</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Berry</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">baie</Literal>
+        <Literal xml:lang="fr">baie</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Berry</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">berry</Literal>
+        <Literal xml:lang="en">berry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Bunch</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grape</Literal>
+        <Literal xml:lang="fr">grape</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#CultivatedLand</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Terre cultivée</Literal>
+        <Literal xml:lang="fr">Terre cultivée</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#CultivatedLand</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cultivated land</Literal>
+        <Literal xml:lang="en">cultivated land</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#CultivatedLand</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://aims.fao.org/aos/agrovoc/c_16212</Literal>
+        <Literal>http://aims.fao.org/aos/agrovoc/c_16212</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DiseasesControlling</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diseases controlling</Literal>
+        <Literal xml:lang="en">diseases controlling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#FarmArea</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">batiment, etrrain, grange, infrastructure, etc.</Literal>
+        <Literal xml:lang="fr">batiment, etrrain, grange, infrastructure, etc.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#FarmArea</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">farm area</Literal>
+        <Literal xml:lang="en">farm area</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#FarmArea</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://aims.fao.org/aos/agrovoc/c_2794</Literal>
+        <Literal>http://aims.fao.org/aos/agrovoc/c_2794</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Fertilizer</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fertilizer</Literal>
+        <Literal xml:lang="en">fertilizer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Fertilizing</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fertilizing</Literal>
+        <Literal xml:lang="en">fertilizing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Fungicide</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fungicide</Literal>
+        <Literal xml:lang="en">fungicide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Harvesting</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">harvesting</Literal>
+        <Literal xml:lang="en">harvesting</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Herbicide</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">herbicide</Literal>
+        <Literal xml:lang="en">herbicide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Insecticide</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">insecticide</Literal>
+        <Literal xml:lang="en">insecticide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#InterRow</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inter row</Literal>
+        <Literal xml:lang="en">inter row</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Irrigation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">irrigation</Literal>
+        <Literal xml:lang="en">irrigation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Leaf</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">feuille</Literal>
+        <Literal xml:lang="fr">feuille</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Leaf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">leaf</Literal>
+        <Literal xml:lang="en">leaf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#MicroPlot</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">micro plot</Literal>
+        <Literal xml:lang="en">micro plot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Organ</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">organ</Literal>
+        <Literal xml:lang="en">organ</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Parasiticide</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">parasiticide</Literal>
+        <Literal xml:lang="en">parasiticide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#PhytoSanitaryAgriInput</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Phytosanitary Agri Input</Literal>
+        <Literal xml:lang="en">Phytosanitary Agri Input</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Plant</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Plant</Literal>
+        <Literal xml:lang="en">Plant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Plant</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Plante</Literal>
+        <Literal xml:lang="fr">Plante</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Plot</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conduite uniforme, même variété, même traitement</Literal>
+        <Literal xml:lang="fr">conduite uniforme, même variété, même traitement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Plot</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">parcelle</Literal>
+        <Literal xml:lang="fr">parcelle</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Plot</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">field</Literal>
+        <Literal xml:lang="en">field</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Plot</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">plot</Literal>
+        <Literal xml:lang="en">plot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Pruning</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">taille</Literal>
+        <Literal xml:lang="fr">taille</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Pruning</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pruning</Literal>
+        <Literal xml:lang="en">pruning</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Repetition</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">repetition</Literal>
+        <Literal xml:lang="en">repetition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Rootstock</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rootstock</Literal>
+        <Literal xml:lang="en">rootstock</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Row</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structured group of plants</Literal>
+        <Literal xml:lang="en">structured group of plants</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Row</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">row</Literal>
+        <Literal xml:lang="en">row</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#RowSpacing</IRI>
-        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(choix de) espacement entre les rangs</Literal>
+        <Literal xml:lang="fr">(choix de) espacement entre les rangs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#RowSpacing</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">row spacing</Literal>
+        <Literal xml:lang="en">row spacing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Shoot</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rameau</Literal>
+        <Literal>rameau</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Shoot</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shoot</Literal>
+        <Literal xml:lang="en">shoot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#Species</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">species</Literal>
+        <Literal xml:lang="en">species</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Stem</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stem</Literal>
+        <Literal xml:lang="en">stem</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SubPlot</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sub-plot</Literal>
+        <Literal xml:lang="en">sub-plot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Treatment</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">treatment</Literal>
+        <Literal xml:lang="en">treatment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Variety</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">variety</Literal>
+        <Literal xml:lang="en">variety</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ViticulturalExperiment</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">viticultural experiment</Literal>
+        <Literal xml:lang="en">viticultural experiment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Water</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">water</Literal>
+        <Literal xml:lang="en">water</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#appliedTo</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation between classes under AgriActivity and some classes under Agrientity. This relation represents that an instance of AgriActivity is applied to an instance of AgriEntity. For instance, an instance of Fertilizing is applied to an instance of Plot or SubPlot</Literal>
+        <Literal xml:lang="en">semantic relation between classes under AgriActivity and some classes under Agrientity. This relation represents that an instance of AgriActivity is applied to an instance of AgriEntity. For instance, an instance of Fertilizing is applied to an instance of Plot or SubPlot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#appliedTo</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">applied to</Literal>
+        <Literal xml:lang="en">applied to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#applies</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation between classes under AgriActivity and some classes under Agrientity. This relation represents that an instance of AgriActivity is applied to an instance of AgriEntity. For instance, an instance of Fertilizing is applied to an instance of Plot or SubPlot</Literal>
+        <Literal xml:lang="en">semantic relation between classes under AgriActivity and some classes under Agrientity. This relation represents that an instance of AgriActivity is applied to an instance of AgriEntity. For instance, an instance of Fertilizing is applied to an instance of Plot or SubPlot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#applies</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">applies</Literal>
+        <Literal xml:lang="en">applies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#applies</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation between classes under AgriActivity and some classes under Agrientity. This relation represents that an instance of AgriActivity is applied to an instance of AgriEntity. For instance, an instance of Fertilizing is applied to an instance of Plot or SubPlot</Literal>
+        <Literal xml:lang="en">semantic relation between classes under AgriActivity and some classes under Agrientity. This relation represents that an instance of AgriActivity is applied to an instance of AgriEntity. For instance, an instance of Fertilizing is applied to an instance of Plot or SubPlot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#hasLocation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation between AgriExperiment and CultivationArea</Literal>
+        <Literal xml:lang="en">semantic relation between AgriExperiment and CultivationArea</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasLocation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has location</Literal>
+        <Literal xml:lang="en">has location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#hasLocation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation between AgriExperiment and CultivationArea</Literal>
+        <Literal xml:lang="en">semantic relation between AgriExperiment and CultivationArea</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#hasPart</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation between Plant class and Organ class</Literal>
+        <Literal xml:lang="en">semantic relation between Plant class and Organ class</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasPart</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has part</Literal>
+        <Literal xml:lang="en">has part</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#hasPart</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/</Literal>
+        <Literal xml:lang="en">https://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasPart_directly</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has part directly</Literal>
+        <Literal xml:lang="en">has part directly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasPlant</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has plant</Literal>
+        <Literal xml:lang="en">has plant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasSpecies</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has species</Literal>
+        <Literal xml:lang="en">has species</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasVariety</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has variety</Literal>
+        <Literal xml:lang="en">has variety</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#included</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation among cultivation locations (FarmArea, CultivationArea and its subclasses)</Literal>
+        <Literal xml:lang="en">semantic relation among cultivation locations (FarmArea, CultivationArea and its subclasses)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#included</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">included</Literal>
+        <Literal xml:lang="en">included</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#includes</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation among cultivation locations (FarmArea, CultivationArea and its subclasses)</Literal>
+        <Literal xml:lang="en">semantic relation among cultivation locations (FarmArea, CultivationArea and its subclasses)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#includes</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">includes</Literal>
+        <Literal xml:lang="en">includes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#involvedIn</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation between AgriExperiment and AgriActivity as well as AgriEntity. An instance of AgriExperiment involves different instances of AgriActivity and AgriEntity</Literal>
+        <Literal xml:lang="en">semantic relation between AgriExperiment and AgriActivity as well as AgriEntity. An instance of AgriExperiment involves different instances of AgriActivity and AgriEntity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#involvedIn</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">involved in</Literal>
+        <Literal xml:lang="en">involved in</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#involves</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation between AgriExperiment and AgriActivity as well as AgriEntity. An instance of AgriExperiment involves different instances of AgriActivity and AgriEntity</Literal>
+        <Literal xml:lang="en">semantic relation between AgriExperiment and AgriActivity as well as AgriEntity. An instance of AgriExperiment involves different instances of AgriActivity and AgriEntity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#involves</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">involves</Literal>
+        <Literal xml:lang="en">involves</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#locationOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation between AgriExperiment and CultivationArea</Literal>
+        <Literal xml:lang="en">semantic relation between AgriExperiment and CultivationArea</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#locationOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">location of</Literal>
+        <Literal xml:lang="en">location of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#partOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation between Plant class and Organ class</Literal>
+        <Literal xml:lang="en">semantic relation between Plant class and Organ class</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#partOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">part of</Literal>
+        <Literal xml:lang="en">part of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#partOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/</Literal>
+        <Literal xml:lang="en">https://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#partOf_directly</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">part of directly</Literal>
+        <Literal xml:lang="en">part of directly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#requiredBy</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation between some classes under AgriActivity, i.e., DiseaseContolling, Fertilizing and Irrigation) and respective classes under AgriEntity (i.e., Phytosanitary, Fertilizer, Water)</Literal>
+        <Literal xml:lang="en">semantic relation between some classes under AgriActivity, i.e., DiseaseContolling, Fertilizing and Irrigation) and respective classes under AgriEntity (i.e., Phytosanitary, Fertilizer, Water)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#requiredBy</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">required by</Literal>
+        <Literal xml:lang="en">required by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#requires</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">semantic relation between some classes under AgriActivity, i.e., DiseaseContolling, Fertilizing and Irrigation) and respective classes under AgriEntity (i.e., Phytosanitary, Fertilizer, Water)</Literal>
+        <Literal xml:lang="en">semantic relation between some classes under AgriActivity, i.e., DiseaseContolling, Fertilizing and Irrigation) and respective classes under AgriEntity (i.e., Phytosanitary, Fertilizer, Water)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#requires</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">requires</Literal>
+        <Literal xml:lang="en">requires</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
